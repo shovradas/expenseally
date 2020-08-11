@@ -14,3 +14,6 @@ Settings
 	Delete
 	View
 	
+  Currency
+
+	
