@@ -6,4 +6,5 @@ A web application for managing personal expenses
 + Travel expense
 
 
-TOADD: django compressor
+**TO EXPLORE**
+- django compressor
