@@ -26,6 +26,7 @@ SECRET_KEY = 'gt7k%t$u-@ne3ij)s2=d(9or2$vk3svu+#6-nk0m%sb2@^4(gz'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'expenseally.herokuapp.com'
 ]
 
@@ -119,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATIC_URL = '/static/'
 
 #STATICFILES_DIRS = [
