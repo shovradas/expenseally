@@ -2,5 +2,5 @@
 A web application for managing personal expenses
 
 # Features
-Regular expense
-Travel expense
++ Regular expense
++ Travel expense
