@@ -18,6 +18,7 @@
 
     <!-- Custom styles for this template-->
     <link href="{% static 'css/sb-admin-2.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -62,9 +63,9 @@
             </a>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" href="#">Manage Expenses</a>
-                    <a class="collapse-item" href="#">Add New</a>
-                    <a class="collapse-item" href="#">Settings</a>
+                    <a class="collapse-item" href="{% url 'manage-expense' %}">Manage Expenses</a>
+                    <a class="collapse-item" href="{% url 'add-expense' %}">Add New</a>
+                    <a class="collapse-item" href="{% url 'expense-settings' %}">Settings</a>
                 </div>
             </div>
         </li>
@@ -322,7 +323,9 @@
 
 <!-- Custom scripts for all pages-->
 <script src="{% static 'js/sb-admin-2.min.js' %}"></script>
+<script src="{% static 'js/scripts.js' %}"></script>
 
+{% block scripts %}{% endblock %}
 </body>
 
 </html>
